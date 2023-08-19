@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print the largest prime facctor of the 
+ * main - print the largest prime factor of the
  * number 612852475143
  * Return: (0)
  */
@@ -15,12 +15,13 @@ int main(void)
 		{
 			if (n == i)
 			{
-				printf("%1d\n", 1);
+				printf("%ld\n", 1);
 				break;
 			}
 			d = n / i;
-		       n = d;	
+			n = d;
 		}
 	}
+
 	return (0);
 }
